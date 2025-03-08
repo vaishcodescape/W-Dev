@@ -1,2 +1,2 @@
-# W-Dev
-~Projects I made during my Web Development Journey hope you enjoy
+# Web Development
+~Projects I made during my Web Development Journey hope you guys enjoy.
