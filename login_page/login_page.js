@@ -5,3 +5,11 @@ function redirect()
 {
 
 }
+function login()
+{
+
+}
+function signup()
+{
+    
+}
