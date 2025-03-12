@@ -9,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       .animated-bg {
-        background: linear-gradient(-45deg, #00C9A7, #845EC2, #FFC75F, #FF5E78);
+        background: linear-gradient(-45deg, #00c9a7, #845ec2, #ffc75f, #ff5e78);
         background-size: 400% 400%;
         animation: gradientBG 10s ease infinite;
       }
@@ -28,10 +28,12 @@
     </style>
     <script src="weather_api.js" defer></script>
   </head>
-  <body class="animated-bg flex items-center justify-center min-h-screen relative">
-
-
-    <div class="main-frame shadow-lg rounded-2xl p-8 max-w-md w-full bg-white bg-opacity-20 backdrop-blur-md">
+  <body
+    class="animated-bg flex items-center justify-center min-h-screen relative"
+  >
+    <div
+      class="main-frame shadow-lg rounded-2xl p-8 max-w-md w-full bg-white bg-opacity-20 backdrop-blur-md"
+    >
       <div class="search flex items-center gap-4 mb-6">
         <input
           type="text"
@@ -44,16 +46,25 @@
         </button>
       </div>
 
-
       <div class="weather flex flex-col items-center justify-center mb-6">
-        <img src="images/rain.png" alt="Weather Icon" class="weather-icon w-28 h-28 mb-4" />
-        <h1 class="temp text-6xl font-extrabold text-white drop-shadow-lg">Temp</h1>
+        <img
+          src="images/rain.png"
+          alt="Weather Icon"
+          class="weather-icon w-28 h-28 mb-4"
+        />
+        <h1 class="temp text-6xl font-extrabold text-white drop-shadow-lg">
+          Temp
+        </h1>
         <h2 class="city text-3xl font-semibold text-gray-200 mt-2">City</h2>
       </div>
 
       <div class="details flex items-center justify-around">
         <div class="flex flex-col items-center">
-          <img src="images/humidity.png" alt="Humidity Icon" class="w-12 h-12" />
+          <img
+            src="images/humidity.png"
+            alt="Humidity Icon"
+            class="w-12 h-12"
+          />
           <p class="humidity text-xl font-semibold text-gray-200 mt-2"></p>
           <p class="text-sm text-gray-300">Humidity</p>
         </div>
@@ -65,11 +76,21 @@
       </div>
     </div>
 
-    <div class="absolute bottom-0 w-full text-center mb-2 text-gray-300 font-bold flex items-center justify-center gap-2">
+    <div
+      class="absolute bottom-0 w-full text-center mb-2 text-gray-300 font-bold flex items-center justify-center gap-2"
+    >
       Made by vaishcodescape
-  <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="20" alt="GitHub logo" />
-  </a>
-</div>
+      <a
+        href="https://github.com/your-github-username"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+          height="20"
+          alt="GitHub logo"
+        />
+      </a>
+    </div>
   </body>
 </html>
